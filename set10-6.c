@@ -3,8 +3,7 @@
 void main()
 {
     int c,a,b,i,sum=0;
-    scanf("%d",&c);
-    scanf("%d %d",&a,&b);
+    scanf("%d %d %d",&a,&b,&c);
     for(i=0;i<c;i++)
     {
         sum=(c*(2*a+(c-1)*b))/2;
