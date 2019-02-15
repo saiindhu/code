@@ -2,9 +2,9 @@
 
 void main()
 {
-  int a,t=0,i,b,j;
+  int a,t=0,i,b,j,c=0;
  scanf("%d%d",&a,&b);
- for(i=a+1;i<b;i++)
+ for(i=a;i<=b;i++)
  {
      t=0;
 for(j=2;j<i;j++)
@@ -16,8 +16,9 @@ for(j=2;j<i;j++)
 }
  if(t==0)
  {
-     printf("%d ",i);
+   c++;  
  }
 }
+printf("%d",c);
   getch();
 }
